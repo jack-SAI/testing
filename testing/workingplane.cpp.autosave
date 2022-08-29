@@ -52,6 +52,7 @@ void workingPlane::Connection()   //创建一个数据库来存储单词本
 
     QSqlQuery qsq;
     qsq.exec("select * from stardict limit 20  ");
+    
     QStandardItemModel *model = new QStandardItemModel(10,3);
     model->setHeaderData(0,Qt::Horizontal,tr("id"));
     model->setHeaderData(1,Qt::Horizontal,tr("英文"));
