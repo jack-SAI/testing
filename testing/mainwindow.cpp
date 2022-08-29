@@ -7,14 +7,16 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    ui->setupUi(this);
-    setWindowFlags(windowFlags()|Qt::WindowMaximizeButtonHint);
-    setWindowFlags(windowFlags()|Qt::WindowMinMaxButtonsHint);
-    setWindowFlags(windowFlags()|Qt::WindowCloseButtonHint);
+ui->setupUi(this);
+
+
+  //  setWindowFlags(windowFlags()|Qt::WindowMaximizeButtonHint);
+  //  setWindowFlags(windowFlags()|Qt::WindowMinMaxButtonsHint);
+  //  setWindowFlags(windowFlags()|Qt::WindowCloseButtonHint);
     workingPlane *wk = new workingPlane();
-    db=new dbtable();
+
     //wk->setParent(this);
-    //wk->show();
+   // wk->show();
     connect(ui->templogin,&QPushButton::clicked,wk,&QWidget::show);
 
 }

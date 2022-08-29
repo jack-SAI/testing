@@ -8,8 +8,12 @@ workingPlane::workingPlane(QWidget *parent) :
     ui(new Ui::workingPlane)
 {
     ui->setupUi(this);
-    connect(ui->search,&QPushButton::clicked,ui->textBrowser,[=](){
+
+     db=new dbtable();
+    connect(ui->search,&QPushButton::clicked,ui->textBrowser,[=]()
+    {
         ui->textBrowser->insertPlainText("this is a text msg");
+
     });
 
 //    出问题了，好像是参数个数不匹配
@@ -28,4 +32,9 @@ workingPlane::~workingPlane()
 void workingPlane::on_pushButton_clicked()
 {
     ui->textBrowser->insertPlainText("this is a text msg");
+}
+
+void workingPlane::on_dbButton_clicked()
+{
+    db->show();
 }

@@ -14,6 +14,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -21,12 +22,16 @@ QT_BEGIN_NAMESPACE
 class Ui_dbtable
 {
 public:
+    QTableView *tableView;
 
     void setupUi(QWidget *dbtable)
     {
         if (dbtable->objectName().isEmpty())
             dbtable->setObjectName(QStringLiteral("dbtable"));
         dbtable->resize(400, 300);
+        tableView = new QTableView(dbtable);
+        tableView->setObjectName(QStringLiteral("tableView"));
+        tableView->setGeometry(QRect(40, 70, 256, 192));
 
         retranslateUi(dbtable);
 

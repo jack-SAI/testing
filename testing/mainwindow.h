@@ -21,7 +21,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    dbtable *db = nullptr;
+
 };
 
 #endif // MAINWINDOW_H

@@ -5,7 +5,7 @@ dbtable::dbtable(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::dbtable)
 {
-
+    ui->setupUi(this);
     qDebug()<<"@@@@@@@";
 
     QSqlDatabase db1 = QSqlDatabase::addDatabase("QSQLITE");
@@ -14,21 +14,34 @@ dbtable::dbtable(QWidget *parent) :
         qDebug()<<"open db error";
     }
 
-
+//多列模式
     QSqlQuery qsq;
     if(!qsq.exec("select * from wordbox")){
         qDebug()<<"open table error";
     }
-    while(qsq.next()){
-        QString ret =QString("id:%1,Enlish:%9,Chinese:%9")
-                .arg(qsq.value("id").toInt())
-                .arg(qsq.value("English").toString())
-                .arg(qsq.value("Chinese").toString())
-              ;
-        qDebug()<<ret;
+    //多列模式
+    QStandardItemModel *model = new QStandardItemModel(10,3);
+  //  model->setHeaderData(0,Qt::Horizontal,tr("id"));
+    model->setHeaderData(1,Qt::Horizontal,tr("English"));
+    model->setHeaderData(2,Qt::Horizontal,tr("chinese"));
 
+  //  QStringList idData;
+    QStringList EnglishData;
+    QStringList ChineseData;
+
+    while (qsq.next()) {
+        model->insertRow(1);
+       // model->setData(model->index(1,0),qsq.value("id").toInt());
+        model->setData(model->index(1,1),qsq.value("Englis").toString());
+        model->setData(model->index(1,2),qsq.value("Chinese").toDouble());
     }
-    ui->setupUi(this);
+
+    ui->tableView->horizontalHeader()->setVisible(true);
+    ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    ui->tableView->setSelectionBehavior(QAbstractItemView::SelectRows);
+//ui->
+    ui->tableView->setModel(model);
+
 }
 
 dbtable::~dbtable()

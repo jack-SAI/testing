@@ -1,9 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>dbtable</class>
- <widget name="dbtable" class="QWidget">
+ <widget class="QWidget" name="dbtable">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -15,7 +13,17 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>

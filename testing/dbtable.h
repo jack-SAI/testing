@@ -5,8 +5,10 @@
 #include <QSqlDatabase>
 #include <QSqlError>
 #include <QSqlQuery>
-#include <qdebug.h>
-
+#include <QDebug>
+#include <QStandardItem>
+#include <QStandardItemModel>
+#include <QPushButton>
 namespace Ui {
 class dbtable;
 }

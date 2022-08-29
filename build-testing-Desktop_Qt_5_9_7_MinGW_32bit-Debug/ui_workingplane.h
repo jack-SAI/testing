@@ -27,6 +27,7 @@ public:
     QLineEdit *lineEdit;
     QPushButton *search;
     QTextBrowser *textBrowser;
+    QPushButton *dbButton;
 
     void setupUi(QWidget *workingPlane)
     {
@@ -42,6 +43,9 @@ public:
         textBrowser = new QTextBrowser(workingPlane);
         textBrowser->setObjectName(QStringLiteral("textBrowser"));
         textBrowser->setGeometry(QRect(100, 100, 411, 192));
+        dbButton = new QPushButton(workingPlane);
+        dbButton->setObjectName(QStringLiteral("dbButton"));
+        dbButton->setGeometry(QRect(680, 440, 93, 28));
 
         retranslateUi(workingPlane);
 
@@ -52,6 +56,7 @@ public:
     {
         workingPlane->setWindowTitle(QApplication::translate("workingPlane", "Form", Q_NULLPTR));
         search->setText(QApplication::translate("workingPlane", "\346\237\245\350\257\242", Q_NULLPTR));
+        dbButton->setText(QApplication::translate("workingPlane", "\346\225\260\346\215\256\345\272\223", Q_NULLPTR));
     } // retranslateUi
 
 };
