@@ -17,7 +17,7 @@ workingPlane::workingPlane(QWidget *parent) :
 //    也有问题，signal里面没有click的函数事件
 //    QObject::connect(ui->search,SIGNAL())
 
-
+    int x;
 }
 
 workingPlane::~workingPlane()
