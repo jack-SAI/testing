@@ -219,6 +219,18 @@ debug/moc_mainwindow.cpp: E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/inclu
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qtouchdevice.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtabwidget.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
+		../testing/dbtable.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QWidget \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlDatabase \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqldatabase.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qtsqlglobal.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlError \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlerror.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlQuery \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlquery.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QStandardItemModel \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qstandarditemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
 		../testing/mainwindow.h \
 		debug/moc_predefs.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/bin/moc.exe
@@ -324,6 +336,18 @@ debug/moc_workingplane.cpp: E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/inc
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qfiledevice.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qvector2d.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qtouchdevice.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlDatabase \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqldatabase.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qtsqlglobal.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QMessageBox \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qmessagebox.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qdialog.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QStandardItemModel \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qstandarditemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlQuery \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlquery.h \
 		../testing/workingplane.h \
 		debug/moc_predefs.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/bin/moc.exe
@@ -436,6 +460,10 @@ debug/moc_dbtable.cpp: E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlerror.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlQuery \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlquery.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QStandardItemModel \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qstandarditemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
 		../testing/dbtable.h \
 		debug/moc_predefs.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/bin/moc.exe
@@ -574,13 +602,29 @@ debug/main.o: ../testing/main.cpp ../testing/mainwindow.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qtouchdevice.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtabwidget.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
+		../testing/dbtable.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QWidget \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlDatabase \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqldatabase.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qtsqlglobal.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlError \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlerror.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlQuery \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlquery.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QStandardItemModel \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qstandarditemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QApplication \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qapplication.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qcoreapplication.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qeventloop.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qdesktopwidget.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qguiapplication.h \
-		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qinputmethod.h
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qinputmethod.h \
+		../testing/workingplane.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QMessageBox \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qmessagebox.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qdialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\testing\main.cpp
 
 debug/mainwindow.o: ../testing/mainwindow.cpp ../testing/mainwindow.h \
@@ -687,6 +731,18 @@ debug/mainwindow.o: ../testing/mainwindow.cpp ../testing/mainwindow.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qtouchdevice.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtabwidget.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
+		../testing/dbtable.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QWidget \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlDatabase \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqldatabase.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qtsqlglobal.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlError \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlerror.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlQuery \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlquery.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QStandardItemModel \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qstandarditemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
 		ui_mainwindow.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/QVariant \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QAction \
@@ -711,7 +767,6 @@ debug/mainwindow.o: ../testing/mainwindow.cpp ../testing/mainwindow.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemview.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qframe.h \
-		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qitemselectionmodel.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qstyleoption.h \
@@ -742,8 +797,10 @@ debug/mainwindow.o: ../testing/mainwindow.cpp ../testing/mainwindow.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QToolBar \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtoolbar.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QVBoxLayout \
-		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QWidget \
-		../testing/workingplane.h
+		../testing/workingplane.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QMessageBox \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qmessagebox.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qdialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\testing\mainwindow.cpp
 
 debug/workingplane.o: ../testing/workingplane.cpp ../testing/workingplane.h \
@@ -847,11 +904,22 @@ debug/workingplane.o: ../testing/workingplane.cpp ../testing/workingplane.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qfiledevice.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qvector2d.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qtouchdevice.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlDatabase \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqldatabase.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qtsqlglobal.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QMessageBox \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qmessagebox.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qdialog.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QStandardItemModel \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qstandarditemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlQuery \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlquery.h \
 		ui_workingplane.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/QVariant \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QAction \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qaction.h \
-		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qactiongroup.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QApplication \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qapplication.h \
@@ -867,7 +935,6 @@ debug/workingplane.o: ../testing/workingplane.cpp ../testing/workingplane.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemview.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qframe.h \
-		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qitemselectionmodel.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qstyleoption.h \
@@ -889,6 +956,8 @@ debug/workingplane.o: ../testing/workingplane.cpp ../testing/workingplane.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QPushButton \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qpushbutton.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractbutton.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QTableView \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtableview.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QTextBrowser \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtextbrowser.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtextedit.h \
@@ -1003,7 +1072,41 @@ debug/dbtable.o: ../testing/dbtable.cpp ../testing/dbtable.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlerror.h \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/QSqlQuery \
 		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtSql/qsqlquery.h \
-		ui_dbtable.h
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QStandardItemModel \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qstandarditemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
+		ui_dbtable.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/QVariant \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QAction \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qaction.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qactiongroup.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QApplication \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qapplication.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qcoreapplication.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qeventloop.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qdesktopwidget.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qguiapplication.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qinputmethod.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QButtonGroup \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qbuttongroup.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QHeaderView \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qheaderview.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemview.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qframe.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qitemselectionmodel.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qstyleoption.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractspinbox.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qvalidator.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qregularexpression.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qslider.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractslider.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qstyle.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtabbar.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtabwidget.h \
+		E:/ITWorkingSoftware/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qrubberband.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\dbtable.o ..\testing\dbtable.cpp
 
 debug/moc_mainwindow.o: debug/moc_mainwindow.cpp 
