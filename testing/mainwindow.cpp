@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
     setWindowFlags(windowFlags()|Qt::WindowMinMaxButtonsHint);
     setWindowFlags(windowFlags()|Qt::WindowCloseButtonHint);
     workingPlane *wk = new workingPlane();
-    db=new dbtable();
+    //db=new dbtable();
     //wk->setParent(this);
     //wk->show();
     connect(ui->templogin,&QPushButton::clicked,wk,&QWidget::show);

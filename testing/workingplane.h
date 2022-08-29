@@ -2,6 +2,10 @@
 #define WORKINGPLANE_H
 
 #include <QWidget>
+#include <QSqlDatabase>
+#include <QMessageBox>
+#include <QStandardItemModel>
+#include <QSqlQuery>
 
 namespace Ui {
 class workingPlane;
@@ -16,11 +20,11 @@ public:
     ~workingPlane();
 
 private slots:
-    void on_pushButton_clicked();
+   // void on_pushButton_clicked();
 
 private:
     Ui::workingPlane *ui;
-
+    void Connection();
 };
 
 #endif // WORKINGPLANE_H

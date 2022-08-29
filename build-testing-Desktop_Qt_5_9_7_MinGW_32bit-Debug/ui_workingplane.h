@@ -16,7 +16,7 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QTextBrowser>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -26,7 +26,7 @@ class Ui_workingPlane
 public:
     QLineEdit *lineEdit;
     QPushButton *search;
-    QTextBrowser *textBrowser;
+    QTableView *tableView;
 
     void setupUi(QWidget *workingPlane)
     {
@@ -39,9 +39,9 @@ public:
         search = new QPushButton(workingPlane);
         search->setObjectName(QStringLiteral("search"));
         search->setGeometry(QRect(410, 40, 93, 28));
-        textBrowser = new QTextBrowser(workingPlane);
-        textBrowser->setObjectName(QStringLiteral("textBrowser"));
-        textBrowser->setGeometry(QRect(100, 100, 411, 192));
+        tableView = new QTableView(workingPlane);
+        tableView->setObjectName(QStringLiteral("tableView"));
+        tableView->setGeometry(QRect(100, 130, 611, 191));
 
         retranslateUi(workingPlane);
 
