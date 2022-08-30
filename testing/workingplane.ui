@@ -36,13 +36,13 @@
     <string>查询</string>
    </property>
   </widget>
-  <widget class="QTextBrowser" name="textBrowser">
+  <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
      <x>100</x>
-     <y>100</y>
-     <width>411</width>
-     <height>192</height>
+     <y>120</y>
+     <width>421</width>
+     <height>201</height>
     </rect>
    </property>
   </widget>

@@ -15,20 +15,7 @@ dbtable::dbtable(QWidget *parent) :
     }
 
 
-    QSqlQuery qsq;
-    if(!qsq.exec("select * from wordbox")){
-        qDebug()<<"open table error";
-    }
-    while(qsq.next()){
-        QString ret =QString("id:%1,Enlish:%9,Chinese:%9")
-                .arg(qsq.value("id").toInt())
-                .arg(qsq.value("English").toString())
-                .arg(qsq.value("Chinese").toString())
-              ;
-        qDebug()<<ret;
 
-    }
-    ui->setupUi(this);
 }
 
 dbtable::~dbtable()

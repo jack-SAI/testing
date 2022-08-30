@@ -6,6 +6,7 @@
 #include <QSqlError>
 #include <QSqlQuery>
 #include <qdebug.h>
+#include <QStandardItemModel>
 
 namespace Ui {
 class dbtable;

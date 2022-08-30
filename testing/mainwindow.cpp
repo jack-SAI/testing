@@ -12,10 +12,11 @@ MainWindow::MainWindow(QWidget *parent) :
     setWindowFlags(windowFlags()|Qt::WindowMinMaxButtonsHint);
     setWindowFlags(windowFlags()|Qt::WindowCloseButtonHint);
     workingPlane *wk = new workingPlane();
-    db=new dbtable();
+    //db=new dbtable();
     //wk->setParent(this);
     //wk->show();
     connect(ui->templogin,&QPushButton::clicked,wk,&QWidget::show);
+    connect(this,&MainWindow::acception,wk,&QWidget::show);
 
 }
 
@@ -27,4 +28,14 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_2_clicked()
 {
     qDebug()<<"click templogin";
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    if(ui->usrLineEdit->text()=='1' && ui->pwdLineEdit->text()=='1'){
+        acception();
+    }
+    else{
+        qDebug()<<"name or password wrong";
+    }
 }
