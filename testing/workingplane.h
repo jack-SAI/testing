@@ -21,9 +21,13 @@ private slots:
 
     void on_dbButton_clicked();
 
+    void on_search_clicked();
+
 private:
     Ui::workingPlane *ui;
 dbtable *db = nullptr;
+    void getT(QString str);
+
 };
 
 #endif // WORKINGPLANE_H

@@ -31,7 +31,7 @@ public:
         dbtable->resize(400, 300);
         tableView = new QTableView(dbtable);
         tableView->setObjectName(QStringLiteral("tableView"));
-        tableView->setGeometry(QRect(40, 70, 256, 192));
+        tableView->setGeometry(QRect(5, 1, 401, 301));
 
         retranslateUi(dbtable);
 

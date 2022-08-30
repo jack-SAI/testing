@@ -2,6 +2,9 @@
 #include "ui_workingplane.h"
 #include<QTextBrowser>
 #include<workingplane.h>
+#include <iostream>
+#include <QDebug>
+
 
 workingPlane::workingPlane(QWidget *parent) :
     QWidget(parent),
@@ -22,6 +25,10 @@ workingPlane::workingPlane(QWidget *parent) :
 //    QObject::connect(ui->search,SIGNAL())
 
 
+    connect(ui->lineEdit, SIGNAL(textChanged(QString)), this, SLOT(getT(QString)));
+
+
+
 }
 
 workingPlane::~workingPlane()
@@ -37,4 +44,16 @@ void workingPlane::on_pushButton_clicked()
 void workingPlane::on_dbButton_clicked()
 {
     db->show();
+}
+
+void workingPlane::getT(QString str)
+{
+     qDebug()<<"jieshou\n";
+   qDebug() << str;
+}
+
+
+void workingPlane::on_search_clicked()//获取搜索数据
+{
+
 }

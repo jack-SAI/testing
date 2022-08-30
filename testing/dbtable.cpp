@@ -32,7 +32,7 @@ dbtable::dbtable(QWidget *parent) :
     while (qsq.next()) {
         model->insertRow(1);
        // model->setData(model->index(1,0),qsq.value("id").toInt());
-        model->setData(model->index(1,1),qsq.value("Englis").toString());
+        model->setData(model->index(1,1),qsq.value("English").toString());
         model->setData(model->index(1,2),qsq.value("Chinese").toDouble());
     }
 
