@@ -32,16 +32,16 @@ public:
     {
         if (workingPlane->objectName().isEmpty())
             workingPlane->setObjectName(QStringLiteral("workingPlane"));
-        workingPlane->resize(773, 471);
+        workingPlane->resize(853, 531);
         lineEdit = new QLineEdit(workingPlane);
         lineEdit->setObjectName(QStringLiteral("lineEdit"));
-        lineEdit->setGeometry(QRect(100, 40, 281, 31));
+        lineEdit->setGeometry(QRect(100, 40, 511, 31));
         search = new QPushButton(workingPlane);
         search->setObjectName(QStringLiteral("search"));
-        search->setGeometry(QRect(410, 40, 93, 28));
+        search->setGeometry(QRect(650, 40, 93, 28));
         tableView = new QTableView(workingPlane);
         tableView->setObjectName(QStringLiteral("tableView"));
-        tableView->setGeometry(QRect(100, 130, 611, 191));
+        tableView->setGeometry(QRect(100, 130, 651, 371));
 
         retranslateUi(workingPlane);
 

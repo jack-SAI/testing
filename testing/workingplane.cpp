@@ -8,37 +8,18 @@ workingPlane::workingPlane(QWidget *parent) :
     ui(new Ui::workingPlane)
 {
     ui->setupUi(this);
-    models = new QSqlQueryModel(ui->tableView);
+    models = new QSqlQueryModel(ui->tableView);//QSqlTableModel为读写模型,QSqlQueryModel为用来查询的只读模型
     Connection();
-
-
-//    connect(ui->search,&QPushButton::clicked,ui->textBrowser,[=](){
-     //   ui->textBrowser->insertPlainText("this is a text msg");
-   // });
-
-
-
-//    出问题了，好像是参数个数不匹配
-//    connect(ui->search,&QPushButton::clicked,ui->textBrowser,&workingPlane::on_pushButton_clicked);
-//    也有问题，signal里面没有click的函数事件
-//    QObject::connect(ui->search,SIGNAL())
-
 
 }
 
 workingPlane::~workingPlane()
 {
-
     delete ui;
 }
 
-//void workingPlane::on_pushButton_clicked()
-//{
-//    ui->textBrowser->insertPlainText("this is a text msg");
-//}
 
-
-void workingPlane::Connection()   //创建一个数据库来存储单词本
+void workingPlane::Connection()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");//添加数据库的连接，连接名默认
     db.setDatabaseName("testing.db");
@@ -51,27 +32,28 @@ void workingPlane::Connection()   //创建一个数据库来存储单词本
 
 
     QSqlQuery qsq;
-    qsq.exec("select * from stardict limit 20  ");
-    QStandardItemModel *model = new QStandardItemModel(10,3);
-    model->setHeaderData(0,Qt::Horizontal,tr("id"));
-    model->setHeaderData(1,Qt::Horizontal,tr("英文"));
-    model->setHeaderData(2,Qt::Horizontal,tr("中文"));
+    qsq.exec("select * from stardict limit 10  ");//搜索stardict表的前10项纪录
 
+    QStandardItemModel *model = new QStandardItemModel(10,2);//类QStandardItemModel负责保存数据
+    //model->setHeaderData(0,Qt::Horizontal,tr("id"));//设置tableview的表头
+    model->setHeaderData(0,Qt::Horizontal,tr("英文"));
+    model->setHeaderData(1,Qt::Horizontal,tr("中文"));
 
 
     while (qsq.next()) {
         model->insertRow(1);
-        model->setData(model->index(1,0),qsq.value("id").toInt());
-        model->setData(model->index(1,1),qsq.value("sw").toString());
-        model->setData(model->index(1,2),qsq.value("translation").toString());
+       // model->setData(model->index(1,0),qsq.value("id").toInt());
+        model->setData(model->index(1,0),qsq.value("sw").toString());
+        model->setData(model->index(1,1),qsq.value("translation").toString());
     }
 
-    ui->tableView->horizontalHeader()->setVisible(true);
+    ui->tableView->setModel(model); //Qt中用model/view模式来显示数据，将tableView与存储数据的model关联后才有显示的内容
+    ui->tableView->horizontalHeader()->setVisible(true);// 显示表头
     ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->tableView->setSelectionBehavior(QAbstractItemView::SelectRows);//设置选中时为整行选中
-    ui->tableView->setColumnWidth(3,500);                             //设置第二列的宽度
-    ui->tableView->setColumnWidth(2,100);                            //设置第三列的宽度
-    ui->tableView->setModel(model); //Qt中用model/view模式来显示数据，将tableView与存储数据的model关联后才有显示的内容
+    ui->tableView->setColumnWidth(0,100);                             //设置第二列的宽度
+    ui->tableView->setColumnWidth(1,500);                            //设置第三列的宽度
+
 
 
 
